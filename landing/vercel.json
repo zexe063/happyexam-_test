@@ -4,12 +4,7 @@
       { "src": "*.html", "use": "@vercel/static" }
     ],
     "routes": [
-      {
-        "src": "/",
-        "dest": "/landing.html",
-        "headers": {
-          "cache-control": "public, max-age=0, must-revalidate"
-        }
+      { 
+        "src": "/", 
+        "dest": "/landing.html" 
       }
-    ]
-  }
